@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  max-width: 450px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: lightslategray;
+  border-radius: 10px;
+  justify-content: space-between;
+  display: flex;
+  padding: 1.5rem;
+}
+
+input{
+  padding: .5rem;
+  flex: 1;
+}
+
+textarea{
+  width: 100%;
+}
+
+button{
+  border: none;
+  padding: 10px 20px;
+  background-color: darkslateblue;
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
+  cursor: pointer;
+}
